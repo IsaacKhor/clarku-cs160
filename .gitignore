@@ -1,0 +1,10 @@
+.idea/
+lib/
+out/
+algs4.jar
+submission.zip
+wiktionary.txt
+readme-*
+*.iml
+.DS_Store
+cities.txt
