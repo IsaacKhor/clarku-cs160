@@ -37,10 +37,12 @@ public class Term implements Comparable<Term> {
     }
 
     // Compares the two terms in lexicographic order by query.
+    @Override
     public int compareTo(Term that) { return query.compareTo(that.query); }
 
     // Returns a string representation of this term in the following format:
     // the weight, followed by a tab, followed by the query.
+    @Override
     public String toString() {
         return String.format("%d\t%s", weight, query);
     }
